@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>XLanguage</title>
+   	<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  	<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="mycss2.css">
+</head>
+<body>
+<div id = "body">
+	<header>
+		<img src = "logo.png" id= "logo">
+		<p>XLanguage</p>
+	</header>
+
+	
+	<nav class="navbar navbar-default">  
+  		<div class="container-fluid">
+
+    	<div class="navbar-collapse row" id="navbar">   
+      		<ul class="nav navbar-nav navbar-left">   
+        		<li>
+        		<a href="mycss.css" class="news">What's New </a>
+        		</li> 
+      		</ul>
+ 
+      		<ul class="nav navbar-nav navbar-center"> 
+        		<form class="navbar-form navbar-left" role="search">
+        			<div class="form-group">
+          				<input type="text" class="form-control" placeholder="Search">
+        			</div>
+        			<button type="submit" class="btn btn-default">Search for X-Languager</button>
+     			</form>
+     		</ul>
+
+       		<ul class="nav navbar-nav navbar-right"> 
+        		<li class="dropdown"> 
+          		<a class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Information 
+          		<span class="caret"></span>
+          		</a>
+          
+          		<ul class="dropdown-menu" role="menu">
+            		<li><a role="menuitem" href="#">Profile</a></li>
+            		<li><a role="menuitem" href="#">Following</a></li>
+          		</ul>
+        		</li>
+      		</ul>
+    	</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
+  	</nav>
+
+  	<div class="body_info">
+     
+        <h1>
+          建立您的XLanguage帳戶
+          </h1>
+         <div class="submit-info">
+           
+           <div class="question">
+             名稱
+             </div>       
+           <input type="text" class="answer" placeholder="姓氏">&nbsp<input type="text" class="answer" placeholder="名字">
+           
+            <div class="question">
+             帳號
+             </div>       
+           <input type="text" class="answer" placeholder="">
+           
+           <div class="question">
+             建立密碼
+             </div>       
+           <input type="text" class="answer" placeholder="至少8字元">
+           
+           <div class="question">
+             確認密碼
+             </div>       
+           <input type="text" class="answer" placeholder="再輸一次">
+           
+           <div class="question">
+             生日
+             </div>       
+           <input type="text" class="answer" id="birthYear" placeholder="年">&nbsp
+           <select class="answer" id="birthMonth">
+             <option>i</option>
+            </select>&nbsp<input type="text" class="answer" id="birthDate" placeholder="日">
+           
+           <div class="question">
+             性別
+             </div>       
+            <select class="answer" id="gender">
+             <option>男</option>
+             <option>女</option>
+            </select>
+           <br>
+           <br>
+           <input  type="checkbox" id="TermsOfService">
+           <strong>
+            <label for="TermsOfService"> 我同意XLanguage的服務條款及隱私權設定</label>
+           </strong>
+           <br>
+           <br>
+           <button type="submit" class="btn btn-default">Submit</button>
+
+
+           
+
+
+
+           
+       </div>
+  	</div>
+
+  	<footer class="footer">
+  		<br>
+  		<a id="home_page">X Language</a>
+  		<br>
+  		<a id="about_us">about us</a>
+  	</footer>
+
+</div>
+</body>
+
+
+</html>
