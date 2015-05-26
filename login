@@ -55,7 +55,9 @@
   	</nav>
 
   	<div class="body_info">
-     
+     <div>
+       <h3>XLanguage連結你和全世界</h3>
+      </div>
         <div class="login_info">
            <input type="text"  placeholder="帳號">
            <br>
